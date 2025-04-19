@@ -11,13 +11,13 @@ namespace ca1504
         static void Main(string[] args)
         {
             Pessoa pessoa = new Pessoa();
-            pessoa.Nome = "tio";
+            pessoa.Nome = "tio Patinhas";
             pessoa.Email = "teste@teste.com";
-            Console.WriteLine("Nome: {0}", pessoa.Nome);
-            Console.WriteLine("Email: {0}", pessoa.Email);
+            Console.WriteLine("Nome:{0}",pessoa.Nome);
+            Console.WriteLine("Email:{0}",pessoa.Email);
             Cliente c = new Cliente();
             c.cadastrar();
             pessoa.cadastrar();
-        }
+                }
     }
 }
