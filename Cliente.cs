@@ -16,5 +16,9 @@ namespace ca1504
             Console.WriteLine("Digite o seu ID: ");
             this.id = int.Parse(Console.ReadLine());
         }
+        public void exibir()
+        {
+        Console.WriteLine("ID: {0}", this.id);
+        }
     }
 }
