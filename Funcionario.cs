@@ -50,7 +50,7 @@ namespace ca1504
             Console.WriteLine("O seu Email é: {0}", Pessoa.email);
         }
 
-        public void dependente()
+        public void adicionarDependente()
         {
             Console.WriteLine("Digite o nome do seu Dependente: ");
             Pessoa.dependente = Console.ReadLine();
