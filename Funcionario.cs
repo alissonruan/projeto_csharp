@@ -36,6 +36,7 @@ namespace ca1504
 
         public void cadastrarRegistro()
         {
+            Console.WriteLine("Digite o seu Nome:");
             
         }
     }
