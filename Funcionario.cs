@@ -27,5 +27,16 @@ namespace ca1504
             Console.WriteLine("O desconto do salario é: ");
             this.salario = this.salario - (this.salario * 5 / 100);
         }
+
+        public void bonus()
+        {
+            Console.WriteLine("O bônus do seu salario é: ");
+            this.salario = this.salario + (this.salaro * this.salario / 10);
+        }
+
+        public void cadastrarRegistro()
+        {
+            
+        }
     }
 }
