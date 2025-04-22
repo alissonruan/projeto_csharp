@@ -15,7 +15,15 @@ namespace ca1504
             Console.WriteLine("Setor:");
             setor = Console.ReadLine();
         }
-
-       
+        public void definirSetor()
+        {
+            Console.WriteLine("Digite o seu setor: ");
+            this.setor = Console.ReadLine();
+        }
+        public void exibirSetor()
+        {
+        Console.WriteLine("Setor: {0}", this.setor);
+        }
+        
     }
 }
