@@ -10,5 +10,13 @@ namespace ca1504
     {
         protected double desconto;
         protected double cashback;
+
+
+        public void calcularCashback()
+        {
+            Console.WriteLine("Digite o valor da Compra:");
+            this.cashback = int.Parse(Console.ReadLine();
+        }
+        public void 
     }
 }
