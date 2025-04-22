@@ -37,7 +37,22 @@ namespace ca1504
         public void cadastrarRegistro()
         {
             Console.WriteLine("Digite o seu Nome:");
-            
+            Pessoa.nome = Console.ReadLine();
+            Console.WriteLine("Digite o seu Email:);
+            Pessoa.email = Console.ReadLine();
         }
-    }
+        
+        
+
+        public void consultarRegistro()
+        {
+            Console.WriteLine("O seu Nome é: {0}", Pessoa.nome);
+            Console.WriteLine("O seu Email é: {0}", Pessoa.email);
+        }
+
+        public void dependente()
+        {
+            Console.WriteLine("Digite o nome do seu Dependente: ");
+            Pessoa.dependente = Console.ReadLine();
+        }
 }
